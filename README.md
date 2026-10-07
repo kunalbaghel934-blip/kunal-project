@@ -1,2 +1,2 @@
-# kunal-project
+# kunal-tech
 KunalTech Computer Services Website
