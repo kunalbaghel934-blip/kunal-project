@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1.0"
+>
+
+<title>
+KunalTech Admin
+</title>
+
+<link
+rel="stylesheet"
+href="admin.css"
+>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>
+KunalTech Admin
+</h1>
+
+<a href="index.html">
+← Website
+</a>
+
+</header>
+
+
+<main>
+
+<div class="stats">
+
+<div>
+<b id="totalJobs">0</b>
+<span>Total</span>
+</div>
+
+<div>
+<b id="pendingJobs">0</b>
+<span>Pending</span>
+</div>
+
+<div>
+<b id="progressJobs">0</b>
+<span>In Progress</span>
+</div>
+
+<div>
+<b id="completeJobs">0</b>
+<span>Complete</span>
+</div>
+
+</div>
+
+
+<div class="tools">
+
+<input
+id="search"
+type="search"
+placeholder="Search customer, mobile or Job ID"
+>
+
+
+<select id="filterStatus">
+
+<option value="All">
+All Status
+</option>
+
+<option value="Pending">
+Pending
+</option>
+
+<option value="In Progress">
+In Progress
+</option>
+
+<option value="Completed">
+Completed
+</option>
+
+<option value="Cancelled">
+Cancelled
+</option>
+
+</select>
+
+</div>
+
+
+<div id="jobList">
+</div>
+
+</main>
+
+
+<script src="services.js"></script>
+
+<script src="admin.js"></script>
+
+</body>
+
+</html>

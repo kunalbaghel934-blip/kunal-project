@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1.0"
+>
+
+<title>
+Pay KunalTech
+</title>
+
+<link
+rel="stylesheet"
+href="payment.css"
+>
+
+</head>
+
+
+<body>
+
+<div class="payment-box">
+
+<h1>
+KunalTech
+</h1>
+
+
+<h2>
+💳 Make Payment
+</h2>
+
+
+<p>
+Scan the QR code using any UPI app.
+</p>
+
+
+<div class="qr-box">
+
+<img
+src="kunaltech-qr.png.jpeg"
+alt="KunalTech UPI QR Code"
+>
+
+</div>
+
+
+<p class="scan">
+SCAN & PAY
+</p>
+
+
+<div class="upi">
+
+<strong>
+UPI ID:
+</strong>
+
+<span id="upiId">
+9109836242@ybl
+</span>
+
+<button onclick="copyUPI()">
+Copy
+</button>
+
+</div>
+
+
+<label>
+Payment Amount
+</label>
+
+
+<input
+id="amount"
+type="number"
+placeholder="Enter amount"
+min="1"
+>
+
+
+<button
+class="pay-btn"
+onclick="openUPI()"
+>
+
+📱 Pay Now
+
+</button>
+
+
+<p class="note">
+
+Payment करने के बाद अपने UPI app में
+transaction successful है या नहीं check करें।
+
+</p>
+
+
+<a
+href="index.html"
+class="back"
+>
+
+← Back to KunalTech
+
+</a>
+
+</div>
+
+
+<script src="payment.js"></script>
+
+</body>
+
+</html>
